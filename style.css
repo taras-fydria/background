@@ -1,0 +1,41 @@
+#main-banner .bg-animation{
+    background: url('sprite.png') 0 0 repeat;
+    -webkit-animation: animate_background 15s linear 0s infinite;
+    -moz-animation: animate_background 15s linear 0s infinite;
+    -o-animation: animate_background 15s linear 0s infinite;
+    animation: animate_background 15s linear 0s infinite;
+    min-height:100vh;
+    height: 100%;
+}
+@-webkit-keyframes animate_background { 
+    from { 
+        background-position: 0 0;
+    } 
+    to { 
+        background-position: -1616px  -965px;
+    } 
+}
+/* @-moz-keyframes animate_background { 
+    from { 
+        background-position: 0 0;
+    } 
+    to { 
+        background-position: 0 -200px;
+    } 
+}
+@-o-keyframes animate_background { 
+    from { 
+        background-position: 0 0;
+    } 
+    to { 
+        background-position: 0 -200px;
+    } 
+}
+@keyframes animate_background { 
+    from { 
+        background-position: 0 0;
+    } 
+    to { 
+        background-position: 0 -200px;
+    } 
+} */
